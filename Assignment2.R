@@ -16,11 +16,11 @@ if(is.numeric(as.numeric(value)) &
   
   if(value == ((first_digit)^3 + (second_digit)^3 + (third_digit)^3)){
     
-    print(paste(value, "is a narcissistic number."))
+    print(paste(value, "is a three-digit positive number and a narcissistic number."))
     
-  } else {
+  } else { 
     
-    print(paste(value, "is not a narcissitic number."))
+    print(paste(value, "is a three-digit positive number but not a narcissitic number."))
     
   }
   
