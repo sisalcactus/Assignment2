@@ -38,9 +38,9 @@ if(is.numeric(as.numeric(value)) &     # this is added so we can check if the in
     
     print(paste(value, "is a three-digit positive number but not a narcissitic number.")) # this is added to inform the user their number is not a narcissistic number
     
-     }                                          # this inner if-else if relates to the case where the user's inputted number is checked to be numeric
+     }                                          # this inner if-else relates to the case where the user's inputted number has been verified as being numeric
                                                 # (and is a positive three-digit number)
-                                                # so we can print whether it is narcissistic or not depending on the calculation (please see line 33)
+                                                # so the aim it achieves is inform the user if their number is narcissistic or not narcissistic (based on the calculation in line 33)
 
      } else {                                                                           
   
