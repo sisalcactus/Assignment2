@@ -43,13 +43,13 @@ if(is.numeric(as.numeric(value)) &     # this is added so we can check if the in
     
      }                                          # this inner if-else relates to the case where the user's inputted number has been verified as being numeric
                                                 # (and is a positive three-digit number)
-                                                # so the aim it achieves is inform the user if their number is narcissistic or not narcissistic (based on the calculation in line 33)
+                                                # so the aim it achieves is inform the user if their number is narcissistic or not narcissistic (based on the calculation in line 36)
 
      } else {                                                                           
   
        print("Entry is not valid. Please ensure your input is a three-digit positive integer. Terminating...")
 
-}                # this outer if-else is to check if the user's entry is numerical
+}                # this outer if-else is to test for validity (checking if the user's entry is numerical)
                  # here, if-else prints the error message when the user's entry is not numeric
                  # the error message is also printed when it is not a positive three-digit integer (done just for fun!)
 
